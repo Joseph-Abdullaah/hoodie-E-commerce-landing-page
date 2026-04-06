@@ -1,20 +1,34 @@
-import { Button } from "@/components/ui/button"
+import Banner from "@/components/banner"
+import Navbar from "@/components/layout/navbar"
+import Hero from "@/components/hero"
+import NewDrops from "@/components/newdrops"
+import Bento from "@/components/bento"
+import StoryManifesto from "@/components/story-manifesto"
+import FeaturedDrops from "@/components/featured-drops"
+import ProductSpotlight from "@/components/product-spotlight"
+import MovementBanner from "@/components/movement-banner"
+import WhyShop from "@/components/why-shop"
+import ShopCategories from "@/components/shop-categories"
+import Newsletter from "@/components/newsletter"
+import Footer from "@/components/layout/footer"
 
 export function App() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-        <div className="font-mono text-xs text-muted-foreground">
-          (Press <kbd>d</kbd> to toggle dark mode)
-        </div>
-      </div>
-    </div>
+    <>
+      <Banner />
+      <Navbar />
+      <Hero />
+      <NewDrops />
+      <Bento />
+      <StoryManifesto />
+      <FeaturedDrops />
+      <ProductSpotlight />
+      <MovementBanner />
+      <WhyShop />
+      <ShopCategories />
+      <Newsletter />
+      <Footer />
+    </>
   )
 }
 
