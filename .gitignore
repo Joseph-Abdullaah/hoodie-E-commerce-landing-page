@@ -18,6 +18,8 @@ design
 !.vscode/extensions.json
 .idea
 .DS_Store
+.agents
+.cursor
 *.suo
 *.ntvs*
 *.njsproj
